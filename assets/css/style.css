@@ -318,6 +318,9 @@ h6 {
     .navbar ul {
         display: none;
     }
+    #logo-footer {
+        width: 50%;
+    }
 }
 
 .navbar-mobile {
@@ -522,6 +525,9 @@ h6 {
         font-size: 16px;
         padding: 10px 24px 11px 24px;
     }
+    #logo-footer {
+        width: 50%;
+    }
 }
 
 @-webkit-keyframes up-down {
@@ -669,6 +675,7 @@ section {
     padding: 50px 30px;
     transition: all ease-in-out 0.4s;
     background: #fff;
+    width: 100%;
 }
 
 .services .icon-box .icon,
@@ -1128,6 +1135,9 @@ S.portfolio-details .portfolio-description p {
     #footer .credits {
         padding-top: 4px;
     }
+    #logo-footer {
+        width: 50%;
+    }
 }
 
 
@@ -1156,4 +1166,23 @@ S.portfolio-details .portfolio-description p {
 
 #containerLogoName {
     width: 100%;
+}
+
+.ul-footer {
+    padding-left: 1rem !important;
+}
+
+.ul-footer li .scrollto {
+    font-size: 16px !important;
+}
+
+.ul-footer li .scrollto,
+.titulo-footer {
+    color: #BC4040 !important;
+}
+
+.container-footer-logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
