@@ -220,9 +220,9 @@
                 </div>
 
                 <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
-                    <li data-filter=".filter-web">Web</li>
+                    <li data-filter="*" class="filter-active" id="btnAllPortfolio">All</li>
+                    <li data-filter=".filter-app" id="btnAppPortfolio">App</li>
+                    <li data-filter=".filter-web" id="btnWebPortfolio">Web</li>
                 </ul>
 
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
@@ -422,6 +422,12 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            document.getElementById("btnAllPortfolio").click();
+        });
+    </script>
 
 </body>
 
